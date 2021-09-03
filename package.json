@@ -1,0 +1,59 @@
+{
+   "name": "natours",
+   "version": "1.0.0",
+   "description": "Learning node, express and mongoDB",
+   "main": "index.js",
+   "engines": {
+      "node": ">=10.0.0"
+   },
+   "scripts": {
+      "start:dev": "nodemon server.js",
+      "start:prod": "cross-env NODE_ENV=production nodemon server.js",
+      "debug": "ndb",
+      "watch:js": "parcel watch ./public/js/index.js --out-dir ./public/js --out-file bundle.js",
+      "build:js": "parcel build ./public/js/index.js --out-dir ./public/js --out-file bundle.js"
+   },
+   "author": "Andreas Lauritsen",
+   "license": "ISC",
+   "dependencies": {
+      "5": "^0.0.1",
+      "@babel/polyfill": "^7.12.1",
+      "@prettier/plugin-pug": "^1.16.3",
+      "axios": "^0.21.1",
+      "bcryptjs": "^2.4.3",
+      "cookie-parser": "^1.4.5",
+      "dotenv": "^10.0.0",
+      "express": "^4.17.1",
+      "express-rate-limit": "^5.3.0",
+      "helmet": "^4.6.0",
+      "hpp": "^0.2.3",
+      "jsonwebtoken": "^8.5.1",
+      "mongo-sanitize": "^1.1.0",
+      "mongodb-sanitize": "^2.2.0",
+      "mongoose": "^5.13.6",
+      "morgan": "^1.10.0",
+      "multer": "^1.4.3",
+      "ndb": "^1.1.5",
+      "nodemailer": "^6.6.3",
+      "nodemon": "^2.0.9",
+      "pug": "^3.0.2",
+      "sharp": "^0.29.0",
+      "slugify": "^1.5.3",
+      "validator": "^13.6.0",
+      "xss-clean": "^0.1.1"
+   },
+   "devDependencies": {
+      "cross-env": "^7.0.3",
+      "eslint": "^7.32.0",
+      "eslint-config-airbnb": "^18.2.1",
+      "eslint-config-prettier": "^8.3.0",
+      "eslint-plugin-import": "^2.23.4",
+      "eslint-plugin-jsx-a11y": "^6.4.1",
+      "eslint-plugin-node": "^11.1.0",
+      "eslint-plugin-prettier": "^3.4.0",
+      "eslint-plugin-pug": "^1.2.3",
+      "eslint-plugin-react": "^7.24.0",
+      "parcel-bundler": "^1.12.5",
+      "prettier": "^2.3.2"
+   }
+}

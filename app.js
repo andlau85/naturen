@@ -15,7 +15,7 @@ const reviewRouter = require('./routes/reviewRouter');
 const viewRouter = require('./routes/viewRouter');
 const globalErrorHandler = require('./controllers/errorController');
 const AppError = require('./util/appError');
-
+// APP
 const app = express();
 //require new modules
 // app.js > router>routers>controller>app.js

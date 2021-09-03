@@ -36,6 +36,7 @@
       "ndb": "^1.1.5",
       "nodemailer": "^6.6.3",
       "nodemon": "^2.0.9",
+      "openssl-nodejs": "^1.0.5",
       "pug": "^3.0.2",
       "sharp": "^0.29.0",
       "slugify": "^1.5.3",
